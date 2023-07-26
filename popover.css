@@ -1,0 +1,141 @@
+div.popover {
+    width: 24rem;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 8px;
+    padding-top: 10px;
+    font-family:'Courier New', Courier, monospace;
+    position: absolute;
+}
+
+div.popover div.body {
+    padding: 10px;
+    cursor: pointer;
+    margin: 10px 10px 0px 10px;
+    border-radius: 0px;
+}
+
+div.popover div.body:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-weight: bolder;    
+}
+
+div.popover div.body div.prompt {
+    font-size: small;
+    margin: 0px 0px 10px 0px;
+}
+
+div.popover div.body div.suggestion {
+    font-size: larger;
+    margin: 0px 10px 0px 10px;
+}
+
+div.popover div.reject {
+    font-size: medium  ;
+    cursor: pointer;
+    margin: 0px 10px 10px 10px;
+    padding: 10px;
+    border-radius: 0px;
+}
+
+div.popover div.reject:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-weight: bolder;
+}
+
+div.popover div.bottom {
+    width: 80%;
+    padding: 20px;
+    height: 2rem;
+    background-color: rgb(255, 255, 255);
+    border-top: solid rgb(242, 234, 250) 1px;
+    margin: auto;
+    /* border-top: solid 1px; */
+    border-radius: 8px;
+}
+
+
+div.popover2 {
+    width: 24rem;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 8px;
+    padding-top: 10px;
+    font-family:'Courier New', Courier, monospace;
+    position: absolute;
+}
+
+div.popover2 div.section1 {
+    display: flex;
+    min-height: 80px;
+    padding: 15px;
+    border-bottom: 1px solid;
+}
+
+div.popover2 div.section1 div.logo img{
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+div.popover2 div.section1 div.writingField {
+    width : 320px;
+}
+
+div.popover2 div.bottom {
+    width: auto;
+    height: 2rem;
+    margin: auto;
+    border-top: solid rgb(0, 0, 0) 1px;
+    padding: 20px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: rgb(255, 255, 255);
+}
+
+div.section2 p {
+    margin-left: 10px;
+}
+
+div.section2 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+div.section2 li {
+    height: 25px;
+    padding: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+div.section2 li:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+button  {
+    width: 150px;
+    height: 3rem;
+    background-color: white;
+    border-radius: 8px;
+    padding: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    cursor: pointer;
+}

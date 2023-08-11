@@ -1,12 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "Your Writing Buddy",
-  "version": "1.0",
-  "description": "This extension will help you write the correct way",
-  "permissions": [
-    "storage",
-    "tabs"
-  ],
+  "name": "WritingBuddy",
+  "version": "0.0.2",
+  "description": "Генерация электронных писем, генерерация ответа на вхожящие письма, корректировка грамматики и орфографии.",
   "action": {
     "default_popup": "popup.html",
     "default_title": "WritingBuddy"
